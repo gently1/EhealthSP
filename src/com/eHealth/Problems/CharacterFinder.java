@@ -31,6 +31,7 @@ public class CharacterFinder
 		
 		int length = splitWords.length;
 
+		//Compare char with next char based on ASCII int values and swap if it is greater
 		for(int i = 0; i < length; i++)
 		{
 		   for(int j = i + 1; j < length; j++)

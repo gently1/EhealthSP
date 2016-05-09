@@ -86,20 +86,20 @@ public class TreeTrasversal
 			TreeNode node = new TreeNode(x);
 			if(goRight)
 			{
-				//previousNode.right = node;
-				previousNode = node;
+				previousNode.right = node;
+				//previousNode = node;
 			}
 			else
 			{
-				//previousNode.right = node;
 				previousNode.left = node;
+				//previousNode = node;
 				
 			}
 			goRight = !goRight;
-			previousNode.right = node;
+			previousNode = node;
 			
 		}
-		
+		System.out.println("Tree Traversal Demo: ");
 		ArrayList<Integer> result =  trasverseTree(parentNode);
 		for (Integer i : result) {
 			System.out.println(i);

@@ -50,8 +50,8 @@ public class CharacterFinder
 	
 	public void Test()
 	{
-		System.out.println(" N*N Order: " + find_chars("yard","bandly"));
-		System.out.println(" N Order: " + find_charsNOrder("yard","bandly"));
+		System.out.println(" Find Character N*N Order: " + find_chars("yard","bandly"));
+		System.out.println(" Find Character  N Order: " + find_charsNOrder("yard","bandly"));
 	}
 
 }

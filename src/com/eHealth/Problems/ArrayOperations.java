@@ -56,7 +56,7 @@ public class ArrayOperations
 				13,13,13,13,
 				14};
 		int[] ans = compactArray(testData);
-		System.out.println(Arrays.toString(ans));
+		System.out.println("Compact Array: " + Arrays.toString(ans));
 	}
 
 	public int[] rotateArray(int[] arrayToRotate, int rotateBy)
@@ -87,6 +87,6 @@ public class ArrayOperations
 	{
 		int[] testData = new int[]{1, 2, 3, 4, 5, 6};
 		int[] ans = rotateArray(testData, 2);
-		System.out.println(Arrays.toString(ans));
+		System.out.println("Rotate Array: " + Arrays.toString(ans));
 	}
 }
